@@ -1,0 +1,110 @@
+{
+  "filmes": [
+    {
+      "id": "8f07",
+      "titulo": "Nemo",
+      "sinopse": "Peixe laranja e branco",
+      "duracao": 120,
+      "classificacao": "L",
+      "genero": "Animação",
+      "dataInicio": "2025-12-06",
+      "dataFim": "2025-12-20"
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "1617",
+      "filmeId": "8f07",
+      "salaId": "2242",
+      "horario": "2025-12-13T21:27"
+    },
+    {
+      "id": "a6a4",
+      "filmeId": "8f07",
+      "salaId": "8fa4",
+      "horario": "2025-12-05T20:31"
+    }
+  ],
+  "salas": [
+    {
+      "id": "2242",
+      "numero": 1,
+      "capacidade": 120
+    },
+    {
+      "id": "8fa4",
+      "numero": 123,
+      "capacidade": 1
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "8e82",
+      "sessaoId": "1617",
+      "tipo": "MEIA",
+      "valor": 55,
+      "assento": 36,
+      "itensLanche": [
+        {
+          "nome": "Pipoca",
+          "qtd": 2,
+          "total": 40
+        }
+      ]
+    },
+    {
+      "id": "ed94",
+      "sessaoId": "1617",
+      "tipo": "INTEIRA",
+      "valor": 30,
+      "assento": 37,
+      "itensLanche": []
+    },
+    {
+      "id": "7176",
+      "sessaoId": "1617",
+      "tipo": "MEIA",
+      "valor": 15,
+      "assento": 53,
+      "itensLanche": []
+    },
+    {
+      "id": "2835",
+      "sessaoId": "1617",
+      "tipo": "INTEIRA",
+      "valor": 30,
+      "assento": 54,
+      "itensLanche": []
+    },
+    {
+      "id": "e83c",
+      "sessaoId": "1617",
+      "tipo": "INTEIRA",
+      "valor": 30,
+      "assento": 55,
+      "itensLanche": []
+    },
+    {
+      "id": "472b",
+      "sessaoId": "a6a4",
+      "tipo": "INTEIRA",
+      "valor": 70,
+      "assento": 1,
+      "itensLanche": [
+        {
+          "nome": "Pipoca",
+          "qtd": 2,
+          "total": 40
+        }
+      ]
+    }
+  ],
+  "lanches": [
+    {
+      "id": "2ad5",
+      "nome": "Pipoca",
+      "descricao": "pipoca de sal",
+      "valorUnitario": 20
+    }
+  ]
+}
